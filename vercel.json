@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { "source": "/artchive", "destination": "/artchive/", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/artchive/", "destination": "https://paulmartincurry.github.io/artchive/" },
+    { "source": "/artchive/:path*", "destination": "https://paulmartincurry.github.io/artchive/:path*" }
+  ]
+}
